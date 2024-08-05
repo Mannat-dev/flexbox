@@ -171,16 +171,17 @@ header{
     display: flex;
     flex-direction: column;
     color:white;
+    gap:5px;
     
 }
 .first-message{
-    font-size: 30px;
+    font-size: 24px;
     font-weight: bolder;
     margin-bottom: 0;
 }
 
 .second-message{
-    font-size: 18px;
+    font-size: 20px;
     margin-top: 0px;
 }
 
@@ -196,4 +197,13 @@ header{
     border: 2px solid white;
     border-radius: 10px;
     font-weight: bold;
+}
+
+footer{
+    background-color: #1F2937;
+    color: #E5E7EB;
+    height: 100px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 100px;
 }
