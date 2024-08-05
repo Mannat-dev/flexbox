@@ -17,7 +17,8 @@ header{
     flex-direction: column;
     color: #f2f2f2;
     gap: 100px;
-    padding-bottom:100px;
+    padding:0 200px 100px 200px;
+    
     
 
 }
@@ -25,8 +26,9 @@ header{
     
     color: white;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    
 }
 
 .navbar a {
@@ -41,21 +43,20 @@ header{
     background-color: #E5E7EB;
     min-width: 300px; 
     height: auto;
-    width: 30%;
+    width: 50%;
     
   }
 
 .second{
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    gap: 5%;
-    flex-shrink: 0;
+    justify-content: space-between;
+    gap:5%;
     
 }
 
 .info{
-    width: 30%;
+    width: 50%;
     display: flex;
     flex-direction: column;
 }
@@ -64,21 +65,22 @@ header{
     font-size: 48px;
     color: #f9faf8;
     margin: 0px;
+    font-weight: bold;
 }
 
 .secondary-text{
-    font-size: 18px;
+    font-size:20px;
     color: #E5E7EB;
 }
 
 .signup-button{
-    width: 80px;
-    height: 30px;
+    width: 100px;
+    height: 40px;
     background-color: greenyellow;
     color:black;
     text-decoration: none;
     font-size: 18px;
-    line-height: 30px;
+    line-height: 40px;
     text-align: center;
     border-radius: 5px;
     font-weight: 300;
@@ -123,4 +125,75 @@ header{
 .option-heading{
     font-size: 36px;
     color: #1F2937;
+}
+
+.quote-section{
+    display: flex;
+    flex-direction: column;
+    margin: 100px 0 100px 0;
+    background-color: #E5E7EB;  
+    align-items: center; 
+    gap:10px; 
+    padding:5% 0 5% 0;
+    
+}
+
+.quote-section p{
+    font-size: 36px;
+    font-style:italic;
+    color:#1f2937;
+    width: 60%;
+    margin-bottom: 0;
+    text-align: left;
+    font-weight: 300;
+}
+
+.quote-section h3{
+    text-align: right;
+    width:70%;
+    font-size: 20px;
+
+}
+
+.signup-banner{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background-color: #3882F6;
+    margin-bottom: 100px;
+    padding:20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: 20px;
+}
+
+.message{
+    display: flex;
+    flex-direction: column;
+    color:white;
+    
+}
+.first-message{
+    font-size: 30px;
+    font-weight: bolder;
+    margin-bottom: 0;
+}
+
+.second-message{
+    font-size: 18px;
+    margin-top: 0px;
+}
+
+
+.button-banner{
+    width: 100px;
+    height: 40px;
+    color:white;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 40px;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-weight: bold;
 }
